@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Colorsheet Tree Cold
+  m_Name: Colorsheet Tree Fall 24
   m_Shader: {fileID: -6465566751694194690, guid: 9d0b5f4d76722314c8379ddf7c0ccc0b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 99897f7919c46fc43969a2a130434315, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -37,7 +37,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_105ff98d14454147bbd65aaddd97ccf3: 0
-    - Vector1_4229ca8160b64a8da9de6ea0f92b0b49: 0
+    - Vector1_4229ca8160b64a8da9de6ea0f92b0b49: 0.4
     - Vector1_e136b5cac5ac4058820fd00fd2584e98: 0.2
     m_Colors:
     - Color_15855a90c3654129b1650ab7de8f9418: {r: 0.8773585, g: 0.8301306, b: 0.7987273, a: 0}

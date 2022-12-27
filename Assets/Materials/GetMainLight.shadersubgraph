@@ -7,7 +7,17 @@
             "m_Id": "7fafe5f6a6b741dda261ebaf07401c04"
         }
     ],
-    "m_Keywords": [],
+    "m_Keywords": [
+        {
+            "m_Id": "e47f5380f6ae4e7788f66fc663cd1f71"
+        },
+        {
+            "m_Id": "4fbe7ac416c04e288507dc0fb8465a39"
+        },
+        {
+            "m_Id": "b010df28e8614b73ace2d445c8ffc3ff"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "8051d4b45cf947919a5c37b72bbc6988"
@@ -246,6 +256,25 @@
     "m_FunctionName": "MainLight",
     "m_FunctionSource": "d67a019f2b5b1ab41b7f9ff246900e52",
     "m_FunctionBody": "Enter function body here..."
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "4fbe7ac416c04e288507dc0fb8465a39",
+    "m_Guid": {
+        "m_GuidSerialized": "f6d76a9d-d365-4ee4-a285-b5cb5cc410fc"
+    },
+    "m_Name": "MainLightShadowsCascade",
+    "m_DefaultReferenceName": "BOOLEAN_4FBE7AC416C04E288507DC0FB8465A39_ON",
+    "m_OverrideReferenceName": "_MAIN_LIGHT_SHADOWS_CASCADE",
+    "m_GeneratePropertyBlock": true,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 1,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {
@@ -529,6 +558,25 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "b010df28e8614b73ace2d445c8ffc3ff",
+    "m_Guid": {
+        "m_GuidSerialized": "75589444-9484-4965-9937-90712a5998b8"
+    },
+    "m_Name": "SoftShadows",
+    "m_DefaultReferenceName": "BOOLEAN_B010DF28E8614B73ACE2D445C8FFC3FF_ON",
+    "m_OverrideReferenceName": "_SOFT_SHADOWS",
+    "m_GeneratePropertyBlock": true,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 1,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "c044bd745c484acdb82409b2f7234001",
     "m_Group": {
@@ -586,6 +634,25 @@
         "z": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "e47f5380f6ae4e7788f66fc663cd1f71",
+    "m_Guid": {
+        "m_GuidSerialized": "45133305-35e6-44d4-bb61-af4700572d13"
+    },
+    "m_Name": "MainLightShadows",
+    "m_DefaultReferenceName": "BOOLEAN_E47F5380F6AE4E7788F66FC663CD1F71_ON",
+    "m_OverrideReferenceName": "_MAIN_LIGHT_SHADOWS",
+    "m_GeneratePropertyBlock": true,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 1,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {
